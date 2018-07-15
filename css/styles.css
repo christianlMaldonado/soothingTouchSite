@@ -1,0 +1,92 @@
+body {
+    margin:0;
+    font-family: Arial;
+    background-image: url(../images/cherryBlossom.jpg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    height: auto;
+}
+.headerThree {
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: black;
+    background-color: hsla(240,100%,95%,0.3);
+}
+
+.headerTwo {
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+    margin 1px;
+    color: dimgrey;
+    background-color: hsla(240,100%,90%,0.5);
+}
+
+.header {
+    overflow: hidden;
+    background-color: hsla(240,100%,95%,0.3);
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: none;
+}
+
+.header a.logo {
+    font-size 25px;
+    font-weight: bold;                
+}
+
+.header a:hover {
+    color: blue;
+}
+
+.header a.active {
+    background-color:hsla(240,100%,90%,0.5);
+    color: black;
+}
+
+.header-top {
+    float: top;
+}
+
+.bodyVisible {
+    position:static;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 2;
+    margin: 20px 1px;
+    padding: 20px 90px; 
+    background-color:hsla(240,100%,90%,0.5); 
+}
+
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: blue;
+    text-align: center;
+    opacity: 1;
+    background-color: hsla(240,100%,90%,0.5);
+    margin: 1px;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-top {
+        float:none;
+    }
+
+}
